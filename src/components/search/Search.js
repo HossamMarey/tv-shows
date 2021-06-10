@@ -51,8 +51,10 @@ const Search = (props) => {
           <div className={styleClasses}>
             {props.size === "large" ? (
               <>
-                <h1>Find your next Show</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h1 className="text-center">Find your next Show</h1>
+                <p className="text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
               </>
             ) : null}
             <form className="search-form" onSubmit={handleSearchForm}>
